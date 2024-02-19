@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("https://img.freepik.com/premium-photo/natural-art-paper-texture-white-parchment-background_118047-18397.jpg?w=740");
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  font-size: 4em;
+  font-family: "Roboto", sans-serif;
+}
+
+#task-form {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+  padding: 10px;
+}
+
+#user-input {
+  background-color: transparent;
+}
+
+#submit-btn {
+  padding: 5px;
+}
+
+li {
+  list-style: none;
+  margin: 5px;
+  font-family: "Roboto", sans-serif;
+}
+
+.checked {
+  color: gray;
+}
+
+div {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+button {
+  border: none;
+  background-color: transparent;
+  margin: 0 0 0 20px;
+  color: red;
+  font-size: 1.5em;
+}
